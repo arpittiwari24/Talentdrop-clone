@@ -53,7 +53,7 @@ const Navbar = () => {
                   className="drawer-overlay"
                   onClick={handleDrawerClose}
                 ></label>
-                <ul className="menu p-4 w-full h-full pt-8 bg-white text-base-content">
+                <ul className="menu p-4 w-60 h-80 pt-8 bg-white text-base-content">
                 <div><i className="fa-solid fa-xmark mr-0" onClick={handleDrawerClose}></i></div>
                   <li>
                     <a className="text-xl text-gray-20">About</a>
